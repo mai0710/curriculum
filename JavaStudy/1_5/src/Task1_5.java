@@ -49,7 +49,7 @@ public class Task1_5 {
 	        for (int i1 = 1; i1 <= 9; i1++) { 
 	        		System.out.print(i1 + "||");
 	        	   // １つの段を表示 
-	        	   for (int j = 1; j <= 9; j++) { 
+	        		for (int j = 1; j <= 9; j++) { 
 	        	      System.out.print((i1 * j)+ "|"); 
 	        	   } 
 
