@@ -20,15 +20,15 @@ public class Check1 {
 	        }
 	        System.out.println();
 	        for (int i = 0; i < data.length - 1/*ここに記述*/; i++) {
-	            for (int j = 0/*ここに記述*/; j < data.length - 1 ; j++) {
+	            for (int j = 4/*ここに記述*/; j > i ; j--) {
 	                /*
 	                * 問3
 	                * 以下、配列の添字を入れてソートを完成させなさい
 	                */
-	                if(data[j/*ここに記述*/] > data[j + 1/*ここに記述*/]){
-	                  int box = data[j/*ここに記述*/];
-	                  data[j/*ここに記述*/] = data[j + 1/*ここに記述*/];
-	                  data[j + 1/*ここに記述*/] = box;
+	                if(data[j-1/*ここに記述*/] > data[j/*ここに記述*/]){
+	                  int box = data[j-1/*ここに記述*/];
+	                  data[j-1/*ここに記述*/] = data[j/*ここに記述*/];
+	                  data[j /*ここに記述*/] = box;
 	                }
 	            }
 	        }
