@@ -14,13 +14,9 @@ public class Main {
     public static void main(String[] args) {
 
         // ③ Taskクラスのインスタンスを生成し、「doTask()」メソッドを呼び出しなさい。
-    	Task task1 = new Task(10);
-    	Task task2 = new Task(10,20);
-    	Task task3 = new Task(10,20,70);
-    	
+    	Task task1 = new Task();
     	task1.doTask();
-    	task2.doTask();
-    	task3.doTask();
+   	
     }
 
 }
