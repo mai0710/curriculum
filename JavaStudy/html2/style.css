@@ -1,0 +1,58 @@
+.orange{
+    width: 400px;
+    height: 100px;
+    background-color: #FFCE7a;
+}
+
+.fruitbox{
+    width: 160px;
+    height: 60px;
+    margin: 20px 20px 20Ppx 220px;
+    display: flex;
+    background-color: white;
+}
+
+.muscat{
+    width: 40px;
+    height: 40px;
+    background-color: #c2ffc8;
+}
+
+.ponch{
+    width: 400px;
+    height: 250px;
+    display: flex;
+}
+
+.soda{
+    width: 150px;
+    height: 250px;
+    background-color: #9DDDF4;
+}
+
+.melon{
+    width: 250px;
+    height: 250px;
+    background-color: #c2ffc8;
+}
+
+.peach{
+    height: 40px;
+    width: 140px;
+    border: solid 5px white;
+    background-color: #ffc2c5;
+}
+
+.peach2{
+    height: 40px;
+    width: 140px;
+    margin: 10px 0;
+    border: solid 5px white;
+    background-color: #ffc2c5;
+}
+
+.grape{
+    width: 400px;
+    height: 100px;
+    background-color: #BEA5FF;
+}

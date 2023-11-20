@@ -29,10 +29,10 @@ public class UserController {
 
 	    //3行追加
 		  // バックエンドからユーザー情報を取得
-	        List<User> userList = userService.getAllUsers();
+	        List<User> userList = userService.searchAll();
 
 	        // モデルにユーザーリストをセット
-	        model.addAttribute("users", userList);
+	        model.addAttribute("userlist", userList);
 
 	        return "user/list"; // ユーザー情報一覧画面のHTMLテンプレートの名前
 
