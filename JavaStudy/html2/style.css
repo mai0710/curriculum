@@ -28,7 +28,7 @@
     background-color: #c2ffc8;
 }
 
-.ponch{
+.punch{
     width: 400px;
     height: 250px;
     display: flex;
@@ -87,7 +87,7 @@
         border-top: 1px solid transparent;
     }
 
-    .ponch{
+    .punch{
         display: block;
         height: 308px;
     }
