@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+    .orange{
+        width: 300px;
+    }
+
+    .soda{
+        width: 100px;
+    }
+
+    .apple{
+        width: 75px;
+    }
+
+    .mint{
+        width: 125px;
+    }
+
+    .peach{
+        width: 125px;
+    }
+
+    .lemon{
+        width: 200px;
+    }
+
+    .grape{
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .orange{
+        width: 150px;
+
+    }
+    .punch{
+        display: block;
+    }
+
+    .soda{
+        width: 150px;
+        height: 100px;
+    }
+
+    .apple{
+        width: 150px;
+        height: 100px;
+        float: none;
+    }
+
+    .mint{
+        width: 150px;
+    }
+
+    .peach{
+        width: 150px;
+    }
+
+    .lemon{
+        width: 150px;
+    }
+    .grape{
+        width: 150px;
+    }
+}

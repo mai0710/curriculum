@@ -1,0 +1,61 @@
+.orange{
+    width: 400px;
+    height: 100px;
+    background-color: #FFCE7a;
+}
+
+.punch{
+    display: flex;
+}
+
+.soda{
+    width: 150px;
+    height: 250px;
+    background-color: #9DDDF4;
+}
+
+.fruitsbox{
+
+}
+
+.parfait::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.apple{
+    width: 100px;
+    height: 150px;
+    background-color: #F89C9C;
+    float: right;
+}
+
+.ice{
+    float: left;
+}
+
+.mint{
+    width: 150px;
+    height: 50px;
+    background-color: #C2FFC8;
+}
+
+.peach{
+    width: 150px;
+    height: 100px;
+    background-color: #FFC2C5;
+}
+
+.lemon{
+    width: 250px;
+    height: 100px;
+    background-color: #FFF083;
+}
+
+.grape{
+    width: 400px;
+    height: 100px;
+    background-color: #BEA5FF;
+}
+
