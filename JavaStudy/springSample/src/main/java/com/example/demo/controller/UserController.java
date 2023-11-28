@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.demo.entity.UserEntity;
 import com.example.demo.service.UserService;
 /**
  * ユーザー情報 Controller
@@ -29,7 +30,7 @@ public class UserController {
 
 	    //3行追加
 		  // バックエンドからユーザー情報を取得
-	        List<User> userList = userService.searchAll();
+	        List<UserEntity> userList = userService.searchAll();
 
 	        // モデルにユーザーリストをセット
 	        model.addAttribute("userlist", userList);

@@ -8,10 +8,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import lombok.Data;
 /**
  * ユーザー情報 Entity
  */
 @Entity
+@Data
 @Table(name = "user")
 public class UserEntity  {
 
@@ -22,7 +25,7 @@ public class UserEntity  {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	//2行追加
-	private String id;
+	private Integer id;
 	/**
 	 * 名前
 	 */
@@ -46,7 +49,7 @@ public class UserEntity  {
 	 */
 	//2行追加
 	@Column(name = "update_date")
-	private String update_date;
+	private  Date updateDate;
 
 	/**
 	 * 登録日時
