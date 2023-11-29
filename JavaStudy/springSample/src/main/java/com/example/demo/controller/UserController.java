@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.example.demo.entity.UserEntity;
 import com.example.demo.service.UserService;
 /**
  * ユーザー情報 Controller
