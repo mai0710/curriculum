@@ -4,8 +4,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
+import com.example.demo.entity.UserEntity;
 import com.example.demo.service.UserService;
 /**
  * ユーザー情報 Controller
@@ -24,7 +25,7 @@ public class UserController {
 	   * @param  model Model
 	   * @return  ユーザー情報一覧画面のHTML
 	   */
-	  @RequestMapping("/user/list")
+	  @GetMapping("/user/list")
 		public String displayList(Model model) {
 
 	    //3行追加
