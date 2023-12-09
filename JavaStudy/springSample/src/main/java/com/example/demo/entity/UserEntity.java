@@ -14,8 +14,8 @@ import lombok.Data;
 /**
  * ユーザー情報 Entity
  */
-@Entity
 @Data
+@Entity
 @Table(name = "user" , schema = "public")
 public class UserEntity  {
 
