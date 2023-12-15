@@ -111,6 +111,7 @@ public class UserController {
 	   */
 	  @GetMapping("/user/{id}/edit")
 	  public String displayEdit(@PathVariable  Integer id, Model model) {
+		  
 		UserEntity user = userService.findById(id);
 	    UserUpdateRequest userUpdateRequest = new UserUpdateRequest();
 	 //実装5行
