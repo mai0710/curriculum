@@ -1,0 +1,27 @@
+.khg{
+	display: flex;
+	border: solid;
+}
+
+
+.khmaru{
+	color: #ffb103;
+	border: solid;
+}
+
+.khbox{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #e2e2e2;
+}
+
+.button{
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #777777;
+	border-radius: 5px;
+	border: none;
+}

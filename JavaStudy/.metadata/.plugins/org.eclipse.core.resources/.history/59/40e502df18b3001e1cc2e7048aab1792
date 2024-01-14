@@ -10,6 +10,7 @@ p{
 	width: 50%;
 	margin: 0 auto;
 	display: flex;
+	border: solid;
 }
 
 
@@ -19,41 +20,16 @@ p{
 }
 
 .khbox{
-	width: 520px;
+	width: 500px;
 	height: 30px;
 	border-radius: 5px;
 	background-color: #e2e2e2;
 	margin-left: auto;
-	margin-top: 20px;
-}
-
-.khmaru-bikou{
-	margin-right: 30px;
-	color: #ffffff;
-}
-
-.khbox-big{
-	width: 520px;
-	height: 70px;
-	border-radius: 5px;
-	background-color: #e2e2e2;
-	margin-left: auto;
-	margin-top: 20px;
-}
-
-.khbox-big-b{
-	width: 520px;
-	height: 70px;
-	border-radius: 5px;
-	background-color: #e2e2e2;
-	margin-left: auto;
-	margin-top: 40px;
+	margin-top: 2.5%;
 }
 
 .bb{
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .button{

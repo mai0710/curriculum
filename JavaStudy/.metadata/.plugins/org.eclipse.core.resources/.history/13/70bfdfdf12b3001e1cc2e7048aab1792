@@ -1,0 +1,17 @@
+.khg{
+	display: flex;
+	border: solid;
+}
+
+
+.khmaru{
+	color: #ffb103;
+	border: solid;
+}
+
+.khbox{
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: #e2e2e2;
+}

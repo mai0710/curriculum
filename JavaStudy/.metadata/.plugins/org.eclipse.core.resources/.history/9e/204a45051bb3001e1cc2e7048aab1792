@@ -41,19 +41,9 @@ p{
 	margin-top: 20px;
 }
 
-.khbox-big-b{
-	width: 520px;
-	height: 70px;
-	border-radius: 5px;
-	background-color: #e2e2e2;
-	margin-left: auto;
-	margin-top: 40px;
-}
-
 .bb{
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .button{

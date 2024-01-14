@@ -1,0 +1,42 @@
+h1{
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+.khg{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	border: solid;
+}
+
+
+.khmaru{
+	margin-right: 30px;
+	color: #ffb103;
+}
+
+.khbox{
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #e2e2e2;
+}
+
+.bb{
+	text-align: center;
+}
+
+.button{
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #777777;
+	border-radius: 5px;
+	border: none;
+}

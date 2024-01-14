@@ -1,0 +1,10 @@
+.khmaru{
+	color: #ffb103;
+}
+
+.khbox{
+	width: 400px;
+	height: 10px;
+	border-radius: 1px;
+	background-color: #e2e2e2;
+}
