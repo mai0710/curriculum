@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="tt">タイトル</h1>
+	<h2>サブタイトル</h2>
+	<div class="box"></div>
+	<img hlef="img/tib.png">
+</body>
+</html>
