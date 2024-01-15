@@ -5,24 +5,6 @@ header{
 p{
 	font-size: 20px;
 }
-.contents{
-	margin-top: 70px;
-}
-
-
-
-.ki-table{
-	margin: 0 auto;
-	border: solid;
-}
-
-table td{
-	width: 100px;
-	height: 30px;
-	background-color: #e2e2e2;
-	border-radius: 5px;
-	padding: 0 2px;
-}
 
 .khg{
 	width: 50%;
@@ -70,8 +52,8 @@ table td{
 
 .bb{
 	text-align: center;
-	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .button{

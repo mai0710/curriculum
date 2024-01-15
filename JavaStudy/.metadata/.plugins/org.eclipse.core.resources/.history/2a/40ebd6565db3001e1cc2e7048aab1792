@@ -12,17 +12,10 @@ p{
 
 
 .ki-table{
-	margin: 0 auto;
+	text-align: center;
 	border: solid;
 }
 
-table td{
-	width: 100px;
-	height: 30px;
-	background-color: #e2e2e2;
-	border-radius: 5px;
-	padding: 0 2px;
-}
 
 .khg{
 	width: 50%;
