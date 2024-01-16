@@ -25,17 +25,15 @@
 				<p class="khmaru">●</p>
 				<p>ステータス</p>
 				<div class="box">
-					<div class="cp_ipselect cp_sl01">
-					<select required>
-						<option value="" hidden>出勤ステータス</option>
-						<option value="1">出勤</option>
-						<option value="2">遅刻</option>
-						<option value="3">欠席</option>
-						<option value="4">代休</option>
+					<select name="status">
+						<option value="サンプル1">選択肢のサンプル1</option>
+						<option value="サンプル2">選択肢のサンプル2</option>
+						<option value="サンプル3">選択肢のサンプル3</option>
+						<option value="サンプル4">選択肢のサンプル4</option>
+						<option value="サンプル5">選択肢のサンプル5</option>
 					</select>
-					</div>
+					
 				</div>
-
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>

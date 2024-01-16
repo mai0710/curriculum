@@ -25,13 +25,13 @@
 				<p class="khmaru">●</p>
 				<p>ステータス</p>
 				<div class="box">
-					<div class="cp_ipselect cp_sl01">
+					<div class="cp_ipselect cp_sl04">
 					<select required>
-						<option value="" hidden>出勤ステータス</option>
-						<option value="1">出勤</option>
-						<option value="2">遅刻</option>
-						<option value="3">欠席</option>
-						<option value="4">代休</option>
+						<option value="" hidden>Choose</option>
+						<option value="1">cat</option>
+						<option value="2">dog</option>
+						<option value="3">rabbit</option>
+						<option value="4">squirrel</option>
 					</select>
 					</div>
 				</div>

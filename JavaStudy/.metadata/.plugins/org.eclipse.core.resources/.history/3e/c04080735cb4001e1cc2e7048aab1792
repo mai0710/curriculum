@@ -14,27 +14,6 @@ p{
 .my-icon{
 	display: flex;
 	text-align: center;
-	background-color: aqua;
-}
-
-.cp_ipselect {
-	overflow: hidden;
-	width: 90%;
-	text-align: center;
-}
-.cp_ipselect select {
-	width: 100%;
-	padding-right: 1em;
-	cursor: pointer;
-	text-indent: 0.01px;
-	text-overflow: ellipsis;
-	border: none;
-	outline: none;
-	background: transparent;
-	background-image: none;
-	box-shadow: none;
-	-webkit-appearance: none;
-	appearance: none;
 }
 
 .contents{

@@ -9,15 +9,14 @@
 	<div class="my-p">
 		<img src="img/mpb.png" width="600px" height="70px">
 		<div class="my-icon">
-			
+			<div>
 				<a href=""><img src="img/mpst.png" width="180px" height="180px"></a>
-			
-			
+			</div>
+			<div>
 				<a href=""><img src="img/mptt.png" width="180px" height="180px"></a>
+			</div>
 			
-			
-				<a href=""><img src="img/mpki.png" width="180px" height="180px"></a>
-			
+			<img src="img/mpki.png" width="180px" height="180px">
 		</div>
 		<div class="my-icon">
 			<div>
@@ -26,11 +25,14 @@
 			<div>
 				<a href=""><img src="img/mpyi.png" width="180px" height="180px"></a>
 			</div>
-			<div>
-				<a href=""><img src="img/mpyt.png" width="180px" height="180px"></a>
-			</div>
+			
+			<img src="img/mpyt.png" width="180px" height="180px">
 		</div>
-
+		<div>
+			<img src="img/mpks.png" width="180px" height="180px">
+			<img src="img/mpyi.png" width="180px" height="180px">
+			<img src="img/mpyt.png" width="180px" height="180px">
+		</div>
 	</div>
 		
 </body>
