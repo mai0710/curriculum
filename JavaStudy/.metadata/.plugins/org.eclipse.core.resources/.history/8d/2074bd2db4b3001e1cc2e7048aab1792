@@ -14,6 +14,7 @@ p{
 
 .ki-table{
 	margin: 0 auto;
+	border: solid;
 }
 
 table td{
@@ -22,10 +23,6 @@ table td{
 	background-color: #e2e2e2;
 	border-radius: 5px;
 	padding: 0 2px;
-}
-
-.ki{
-	background-color: #ffffff;
 }
 
 .gyou{

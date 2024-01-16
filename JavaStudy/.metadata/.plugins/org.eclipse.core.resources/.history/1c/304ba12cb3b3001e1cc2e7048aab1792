@@ -11,69 +11,60 @@
 	</header>
 	<div class="contents">
 		<div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>勤怠ID</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>ユーザーID</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>ステータス</p>
-				<div class="box">
-					<select name="status">
-						<option value="サンプル1">選択肢のサンプル1</option>
-						<option value="サンプル2">選択肢のサンプル2</option>
-						<option value="サンプル3">選択肢のサンプル3</option>
-						<option value="サンプル4">選択肢のサンプル4</option>
-						<option value="サンプル5">選択肢のサンプル5</option>
-					</select>
-					
-				</div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>出勤日</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>出勤時間</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>退勤日</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>退勤時間</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>稼働時間</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>休憩時間</p>
-				<div class="box"></div>
+				<div class="khbox"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru">●</p>
 				<p>修正理由</p>
-				<div class="sr-box"></div>
+				<div class="khbox-big"></div>
 			</div>
-			<div class="gyou">
+			<div class="khg">
 				<p class="khmaru-bikou">●</p>
 				<p>備考</p>
-				<div class="b-box"></div>
+				<div class="khbox-big-b"></div>
 			</div>
 		</div>
 		<div class="bb">

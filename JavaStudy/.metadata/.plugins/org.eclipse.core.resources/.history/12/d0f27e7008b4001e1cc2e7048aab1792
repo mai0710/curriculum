@@ -24,16 +24,17 @@
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>ステータス</p>
-				<div class="box">
-					<select name="status">
-						<option value="サンプル1">選択肢のサンプル1</option>
-						<option value="サンプル2">選択肢のサンプル2</option>
-						<option value="サンプル3">選択肢のサンプル3</option>
-						<option value="サンプル4">選択肢のサンプル4</option>
-						<option value="サンプル5">選択肢のサンプル5</option>
-					</select>
-					
-				</div>
+				<div class="box"></div>
+				
+<p>
+<select name="example1">
+<option value="サンプル1">選択肢のサンプル1</option>
+<option value="サンプル2">選択肢のサンプル2</option>
+<option value="サンプル3">選択肢のサンプル3</option>
+<option value="サンプル4">選択肢のサンプル4</option>
+<option value="サンプル5">選択肢のサンプル5</option>
+</select>
+</p>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>

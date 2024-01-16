@@ -24,10 +24,6 @@ table td{
 	padding: 0 2px;
 }
 
-.ki{
-	background-color: #ffffff;
-}
-
 .gyou{
 	width: 50%;
 	margin: 0 auto;
