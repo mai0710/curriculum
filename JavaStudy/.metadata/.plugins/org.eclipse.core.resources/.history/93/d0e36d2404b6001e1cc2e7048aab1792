@@ -20,13 +20,6 @@ p{
 	margin: 0 auto;
 }
 
-.in{
-	outline: none;
-	text-align: center;
-	background-color: #e2e2e2;
-	border: none;
-}
-
 .cp_ipselect {
 	overflow: hidden;
 	width: 90%;
@@ -112,26 +105,18 @@ table td{
 
 .bb{
 	display: flex;
-	width: 130px;
 	margin:70px auto;
-}
-
-.list-b{
-	display: flex;
-	width: 60px;
-	margin:70px auto;
+	background-color: aqua;
 }
 
 .button{
 	width: 60px;
 	height: 30px;
 	font-size: 20px;
-	color: #ffffff;
 	background-color: #777777;
 	border-radius: 5px;
 	border: none;
 	text-align: center;
-	text-decoration:none;
 }
 
 .btn-text{
@@ -144,7 +129,6 @@ table td{
 	text-align: center;
 	color: #ffffff;
 	text-decoration:none;
-	margin-right: 10px;
 }
 
 

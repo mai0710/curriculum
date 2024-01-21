@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,59 +43,47 @@
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>出勤日</p>
-				<div class="box"><input type="date" value="2017-06-01" class="in"/></div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>出勤時間</p>
-				<div class="box">
-					<input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="in"/>
-				</div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>退勤日</p>
-				<div class="box"><input type="date" value="2017-06-01" class="in"/></div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>退勤時間</p>
-				<div class="box">
-					<input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="in"/>
-				</div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>稼働時間</p>
-				<div class="box">
-					<input type="text" id="uname" name="name"class="in"/>
-				</div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>休憩時間</p>
-				<div class="box">
-					 <input type="text" id="uname" name="name"class="in"/>
-				</div>
+				<div class="box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru">●</p>
 				<p>修正理由</p>
-				<div class="sr-box">
-					<input type="text" name="reason" size="70" class="in">
-				</div>
+				<div class="sr-box"></div>
 			</div>
 			<div class="gyou">
 				<p class="khmaru-bikou">●</p>
 				<p>備考</p>
-				<div class="b-box">
-					<input type="text" name="reason" size="70" class="in">
-				</div>
+				<div class="b-box"></div>
 			</div>
 		</div>
 		<div class="bb">
-			<a th:href="" class="btn-text">登録</a>
-			<a href="attendanceList.html" class="button">戻る</a>
+			<button type="button" class="button">登録</button>
+			<button type="button" class="button">戻る</button>
 		</div>
 		
 	</div>

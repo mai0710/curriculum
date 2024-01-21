@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="my-p">
+		<img src="img/mpb.png" width="600px" height="70px">
+		
+		<div class="my-icon">
+			<div>
+				<a href=""><img src="img/mpst.png" width="190px" height="190px"></a>
+			</div>
+			<div class="c-icon">
+				<a href=""><img src="img/mptt.png" width="190px" height="190px"></a>
+			</div>
+			<div>
+				<a href=""><img src="img/mpki.png" width="190px" height="190px"></a>
+			</div>
+		</div>
+		<div class="my-icon">
+			<div>
+				<a href=""><img src="img/mpks.png" width="190px" height="190px"></a>
+			</div>
+			<div  class="c-icon">
+				<a href=""><img src="img/mpyi.png" width="190px" height="190px"></a>
+			</div>
+			<div>
+				<a href=""><img src="img/mpyt.png" width="190px" height="190px"></a>
+			</div>
+		</div>
+
+	</div>
+		
+</body>
+</html>

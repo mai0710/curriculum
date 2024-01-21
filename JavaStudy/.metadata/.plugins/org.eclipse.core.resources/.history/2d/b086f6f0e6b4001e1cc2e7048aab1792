@@ -40,13 +40,13 @@
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
-		          <td><div class="button"><a href="attendanceEdit.html" class="btn-text">編集</a></div></td>
+		          <td><div class="button"><a href="" class="btn-text">編集</a></div></td>
 		        </tr>
 			</tbody>
     	</table>
 		<div></div>
-		<div class="list-b">
-			<a href="myPage.html" class="button">戻る</a>
+		<div class="bb">
+			<div class="button"><a href="" class="btn-text">戻る</a></div>
 		</div>
 	</div>
 </body>

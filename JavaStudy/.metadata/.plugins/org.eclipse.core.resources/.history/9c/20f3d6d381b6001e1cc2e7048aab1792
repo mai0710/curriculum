@@ -46,7 +46,7 @@
     	</table>
 		<div></div>
 		<div class="list-b">
-			<a href="myPage.html" class="button">戻る</a>
+			<a href="myPage.html" class="btn-text">戻る</a>
 		</div>
 	</div>
 </body>

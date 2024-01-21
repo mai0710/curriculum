@@ -21,7 +21,6 @@ p{
 }
 
 .in{
-	outline: none;
 	text-align: center;
 	background-color: #e2e2e2;
 	border: none;

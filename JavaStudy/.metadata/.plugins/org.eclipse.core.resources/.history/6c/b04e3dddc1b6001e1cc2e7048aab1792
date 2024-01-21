@@ -82,16 +82,9 @@
 				<p class="khmaru">●</p>
 				<p>修正理由</p>
 				<div class="sr-box">
-					<input type="text" name="reason" size="70" class="in">
+					
 				</div>
-			</div>
-			<div class="gyou">
-				<p class="khmaru-bikou">●</p>
-				<p>備考</p>
-				<div class="b-box">
-					<input type="text" name="reason" size="70" class="in">
-				</div>
-			</div>
+			
 		</div>
 		<div class="bb">
 			<a th:href="" class="btn-text">登録</a>

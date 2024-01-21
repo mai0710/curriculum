@@ -20,13 +20,6 @@ p{
 	margin: 0 auto;
 }
 
-.in{
-	outline: none;
-	text-align: center;
-	background-color: #e2e2e2;
-	border: none;
-}
-
 .cp_ipselect {
 	overflow: hidden;
 	width: 90%;

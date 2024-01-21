@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="img/khb.png" width="1400px" height="150px">
+	</header>
+	<div class="contents">
+		<div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>勤怠ID</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>ユーザーID</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>ステータス</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>出勤日</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>出勤時間</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>退勤日</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>退勤時間</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>稼働時間</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>休憩時間</p>
+				<div class="khbox"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru">●</p>
+				<p>修正理由</p>
+				<div class="khbox-big"></div>
+			</div>
+			<div class="khg">
+				<p class="khmaru-bikou">●</p>
+				<p>備考</p>
+				<div class="khbox-big-b"></div>
+			</div>
+		</div>
+		<div class="bb">
+			<button type="button" class="button">登録</button>
+			<button type="button" class="button">戻る</button>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/head :: head_fragment(title = '経費申請', scripts = ~{::script}, links = ~{::link})">
+  <link rel="stylesheet" href="expenseRegister.css">
+  
+</head>
+
+<body>
+  <header>
+    <img src="img/ksb.png" width="1400px" height="150px" alt="">
+  </header>
+
+  <div class="contents">
+
+    <div class="gyou">
+      <p class="ksmaru">⚫️</p>
+      <p>経費ID</p>
+      <input class="text" placeholder="経費IDは自動で採番致します" readonly>
+    </div>
+
+    <div class="gyou">
+      <p class="ksmaru">⚫️</p>
+      <p>ユーザーID</p>
+      <div class="box"></div>
+    </div>
+
+    <div class="gyou">
+      <p class="ksmaru">⚫️</p>
+      <p>申請日</p>
+      <dd class="form_input">
+        <input type="text" onfocus="this.type='date'" onblur="if(!this.value)this.type='text';"
+          onchange="if(!this.value)this.type='text';" placeholder="YY/MM/DD" value="" class="in">
+      </dd>
+      
+    </div>
+
+    <div class="gyou">
+      <p class="ksmaru">⚫️</p>
+      <p>金額</p>
+      <div class="box"></div>
+    </div>
+
+    <div class="gyou">
+      <p class="ksmaru-b">⚫️</p>
+      <p>備考</p>
+      <div class="b-box"></div>
+    </div>
+
+    <div class="bb">
+      <a th:href="" class="btn-text">登録</a>
+      <a href="attendanceList.html" class="button">戻る</a>
+
+    </div>
+</body>
+
+</html>
