@@ -27,12 +27,13 @@ p{
 }
 
 table td{
-	width: 9%;
+	width: 8%;
 	height: 30px;
 	background-color: #e2e2e2;
 	border-radius: 5px;
 	padding: 0 2px;
-	text-align: center;
+	border: solid;
+	border-spacing: 10px;
 }
 
 .b{

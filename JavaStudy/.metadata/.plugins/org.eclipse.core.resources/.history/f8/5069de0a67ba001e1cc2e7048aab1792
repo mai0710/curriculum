@@ -8,7 +8,7 @@
 
 <body>
 	<header>
-		<img src="img/kib.png" class="page-banner" alt="勤怠一覧バナー画像">
+		<img src="img/kib.png" width="1400px" height="150px">
 	</header>
 	<div class="contents">
 		<table class="ki-table">
@@ -40,7 +40,7 @@
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
-		          <td class="b"><div class="button"><a href="attendanceEdit.html" class="btn-text">編集</a></div></td>
+		          <td><div class="button"><a href="attendanceEdit.html" class="btn-text">編集</a></div></td>
 		        </tr>
 			</tbody>
     	</table>

@@ -9,22 +9,19 @@ p{
 	height: 150px;
 }
 .in{
-	width: 97%;
-	height: 90%;
+	width: 95%;
 	outline: none;
 	font-size: 20px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.2);
 	border: none;
 }
 .cp_ipselect {
-	font-size: 20px;
 	overflow: hidden;
 	width: 90%;
 	text-align: center;
 }
 .cp_ipselect select {
-	font-size: 20px;
 	width: 100%;
 	padding-right: 1em;
 	cursor: pointer;
@@ -37,7 +34,6 @@ p{
 	box-shadow: none;
 	-webkit-appearance: none;
 	appearance: none;
-	text-align: center;
 }
 .contents{
 	margin-top: 70px;

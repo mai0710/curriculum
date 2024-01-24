@@ -1,30 +1,25 @@
 header{
 	text-align: center;
 }
+
 p{
 	font-size: 20px;
 }
-.page-banner{
-	width: 1400px;
-	height: 150px;
-}
+
+
 .in{
-	width: 97%;
-	height: 90%;
 	outline: none;
-	font-size: 20px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: #e2e2e2;
 	border: none;
 }
+
 .cp_ipselect {
-	font-size: 20px;
 	overflow: hidden;
 	width: 90%;
 	text-align: center;
 }
 .cp_ipselect select {
-	font-size: 20px;
 	width: 100%;
 	padding-right: 1em;
 	cursor: pointer;
@@ -37,65 +32,67 @@ p{
 	box-shadow: none;
 	-webkit-appearance: none;
 	appearance: none;
-	text-align: center;
 }
+
 .contents{
 	margin-top: 70px;
 }
-.ae-line{
+
+.gyou{
 	width: 50%;
 	margin: 0 auto;
 	display: flex;
 }
-.ae-circle{
+
+.khmaru{
 	margin-right: 30px;
 	color: #ffb103;
 }
+
 .box{
-	width:70%;
+	width: 520px;
 	height: 30px;
 	border-radius: 5px;
 	background-color: #e2e2e2;
 	margin-left: auto;
 	margin-top: 20px;
-	text-align: center;
 }
+
+.khmaru-bikou{
+	margin-right: 30px;
+	color: #ffffff;
+}
+
 .sr-box{
-	width: 70%;
-	height: 60px;
+	width: 520px;
+	height: 70px;
 	border-radius: 5px;
 	background-color: #e2e2e2;
 	margin-left: auto;
 	margin-top: 20px;
-	text-align: center;
 }
-.ae-circle-line{
-	margin-top: 20px;
-	display: flex;
-}
-.ae-circle-notes{
-	margin-right: 30px;
-	color: rgba(0, 0, 0, 0);
-}
+
 .b-box{
-	width: 70%;
-	height: 60px;
+	width: 520px;
+	height: 70px;
 	border-radius: 5px;
 	background-color: #e2e2e2;
 	margin-left: auto;
 	margin-top: 40px;
-	text-align: center;
 }
+
 .bb{
 	display: flex;
 	width: 130px;
 	margin:70px auto;
 }
+
 .list-b{
 	display: flex;
 	width: 60px;
 	margin:70px auto;
 }
+
 .button{
 	width: 60px;
 	height: 30px;
@@ -107,6 +104,7 @@ p{
 	text-align: center;
 	text-decoration:none;
 }
+
 .btn-text{
 	width: 60px;
 	height: 30px;

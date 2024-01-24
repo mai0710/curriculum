@@ -27,12 +27,15 @@ p{
 }
 
 table td{
-	width: 9%;
+	width: 10%;
 	height: 30px;
 	background-color: #e2e2e2;
 	border-radius: 5px;
 	padding: 0 2px;
-	text-align: center;
+}
+.ki-td{
+	padding-right: 2px;
+	background-color: aqua;
 }
 
 .b{

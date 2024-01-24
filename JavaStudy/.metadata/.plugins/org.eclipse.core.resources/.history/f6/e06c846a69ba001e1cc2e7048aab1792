@@ -1,6 +1,6 @@
 .mypage-banner{
 	width: 600px;
-	height: 80px;
+	height: 70px;
 }
 .icon-size{
 	width: 190px;

@@ -14,7 +14,7 @@ p{
 	outline: none;
 	font-size: 20px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.2);
 	border: none;
 }
 .cp_ipselect {

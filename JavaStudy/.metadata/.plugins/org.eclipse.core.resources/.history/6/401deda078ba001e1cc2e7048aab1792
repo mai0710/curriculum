@@ -29,7 +29,7 @@
       		</thead>
 			<tbody>
 		        <tr th:each="user : ${userlist}" th:object="${user}" class="align-middle">
-		          <td class="ki-td"></td>
+		          <td></td>
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>

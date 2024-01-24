@@ -1,11 +1,8 @@
 .mypage-banner{
 	width: 600px;
-	height: 80px;
+	height: 70px;
 }
-.icon-size{
-	width: 190px;
-	height: 190px;
-}
+
 .my-p{
 	text-align: center;
 	margin-top: 130px;

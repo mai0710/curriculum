@@ -27,18 +27,15 @@ p{
 }
 
 table td{
-	width: 9%;
+	width: 100px;
 	height: 30px;
 	background-color: #e2e2e2;
 	border-radius: 5px;
 	padding: 0 2px;
-	text-align: center;
 }
-
 .b{
-	background-color: rgba(0, 0, 0, 0);
+	background-color: aqua;
 }
-
 .bb{
 	display: flex;
 	width: 130px;

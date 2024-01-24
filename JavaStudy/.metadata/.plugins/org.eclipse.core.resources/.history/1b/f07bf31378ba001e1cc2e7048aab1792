@@ -40,7 +40,7 @@
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
 		          <td class="ki-td"></td>
-		          <td class="b"><div class="button"><a href="attendanceEdit.html" class="btn-text">編集</a></div></td>
+		          <td><div class="button"><a href="attendanceEdit.html" class="btn-text">編集</a></div></td>
 		        </tr>
 			</tbody>
     	</table>
