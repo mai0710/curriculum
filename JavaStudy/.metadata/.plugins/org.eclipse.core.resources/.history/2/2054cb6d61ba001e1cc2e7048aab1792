@@ -1,0 +1,33 @@
+header{
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+.in{
+	outline: none;
+	text-align: center;
+	background-color: #e2e2e2;
+	border: none;
+}
+
+.contents{
+	margin-top: 70px;
+}
+
+
+
+.ki-table{
+	margin: 0 auto;
+}
+
+table td{
+	width: 100px;
+	height: 30px;
+	background-color: #e2e2e2;
+	border-radius: 5px;
+	padding: 0 2px;
+}
+

@@ -1,0 +1,15 @@
+
+.my-p{
+	text-align: center;
+	margin-top: 130px;
+}
+
+.my-icon{
+	width: 600px;
+	display: flex;
+	margin: 10px auto 0;
+	background-color: aqua;
+}
+.c-icon{
+	margin: 0 auto;
+}
