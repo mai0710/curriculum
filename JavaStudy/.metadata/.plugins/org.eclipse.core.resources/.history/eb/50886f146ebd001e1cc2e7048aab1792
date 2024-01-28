@@ -1,0 +1,32 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import org.springframework.transaction.annotation.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entity.attendanceListEntity;
+import com.example.demo.repository.attendanceListRepository;
+
+/**
+ * ユーザー情報 Service
+ */
+@Service
+public class attendanceListService {
+
+  /**
+   * ユーザー情報 Repository
+   */
+  @Autowired
+  private attendanceListRepository attendanceListRepository;
+
+  /**
+   * ユーザー情報 全検索
+   * @return 検索結果
+   */
+  public List<AttendanceList> searchAll() {
+    return attendanceListRepository.findAll();
+  }
+}

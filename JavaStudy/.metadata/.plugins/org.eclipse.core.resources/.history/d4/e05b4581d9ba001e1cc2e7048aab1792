@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AttendanceEdit</title>
+<link rel="stylesheet" href="attendanceEdit.css">
+</head>
+<body>
+	<header>
+		<img src="img/khb.png" class="page-banner" alt="勤怠編集バナー画像">
+	</header>
+	<div class="contents">
+		<div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>勤怠ID</p>
+				<div class="box"></div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>ユーザーID</p>
+				<div class="box">
+					<input type="text" id="uname" name="name" size="65" class="in"/>
+				</div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>ステータス</p>
+				<div class="box">
+					<div class="cp_ipselect cp_sl01">
+					<select required>
+						<option value=""> 出勤ステータス▼</option>
+						<option value="1">出勤</option>
+						<option value="2">遅刻</option>
+						<option value="3">欠席</option>
+						<option value="4">代休</option>
+						<option value="5">所定日</option>
+						<option value="6">有休</option>
+						<option value="7">その他</option>
+					</select>
+					</div>
+				</div>
+
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>出勤日</p>
+				<div class="box"><input type="date" value="2017-06-01" class="in"/></div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>出勤時間</p>
+				<div class="box">
+					<input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="in"/>
+				</div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>退勤日</p>
+				<div class="box"><input type="date" value="2017-06-01" class="in"/></div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>退勤時間</p>
+				<div class="box">
+					<input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="in"/>
+				</div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>稼働時間</p>
+				<div class="box">
+					<input type="text" id="uname" name="name" size="65" class="in"/>
+				</div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>休憩時間</p>
+				<div class="box">
+					 <input type="text" id="uname" name="name" size="65" class="in"/>
+				</div>
+			</div>
+			<div class="ae-line">
+				<p class="ae-circle">●</p>
+				<p>修正理由</p>
+				<div class="sr-box">
+					<textarea name="reason" cols="65" rows="3" class="in"></textarea>
+				</div>
+			</div>
+			<div class="ae-line">
+				<div class="ae-circle-line">
+					<p class="ae-circle-notes">●</p>
+					<p>備考</p>
+				</div>
+				<div class="b-box">
+					<textarea name="notes" cols="65" rows="3" class="in"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="bb">
+			<a th:href="" class="btn-text">登録</a>
+			<a href="attendanceList.html" class="button">戻る</a>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

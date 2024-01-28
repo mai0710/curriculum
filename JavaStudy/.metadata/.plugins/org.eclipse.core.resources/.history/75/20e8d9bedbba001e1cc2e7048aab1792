@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyPage</title>
+<link rel="stylesheet" href="myPage.css">
+</head>
+<body>
+	<div class="my-p">
+		<img src="img/mpb.png" class="mypage-banner" alt="マイページバナー">
+		
+		<div class="my-icon">
+			<div>
+				<a href="goingRegister.html"><img src="img/mpst.png" class="icon-size" alt="出勤登録アイコン"></a>
+			</div>
+			<div class="c-icon">
+				<a href="leavingRegister.html"><img src="img/mptt.png" class="icon-size" alt="退勤登録アイコン"></a>
+			</div>
+			<div>
+				<a href="attendanceList.html"><img src="img/mpki.png" class="icon-size" alt="勤怠一覧アイコン"></a>
+			</div>
+		</div>
+		<div class="my-icon">
+			<div>
+				<a href="expenseRegister.html"><img src="img/mpks.png" class="icon-size" alt="経費申請アイコン"></a>
+			</div>
+			<div  class="c-icon">
+				<a href="userList.html"><img src="img/mpyi.png" class="icon-size" alt="ユーザー一覧アイコン"></a>
+			</div>
+			<div>
+				<a href="userRegister.html"><img src="img/mpyt.png" class="icon-size" alt="ユーザー登録アイコン"></a>
+			</div>
+		</div>
+
+	</div>
+		
+</body>
+</html>
