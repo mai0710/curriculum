@@ -1,0 +1,48 @@
+package com.example.demo.controller;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.demo.dto.AttendanceListRequest;
+import com.example.demo.dto.AttendanceListUpdateRequest;
+import com.example.demo.entity.AttendanceListEntity;
+import com.example.demo.service.AttendanceListService;
+/**
+ * 勤怠一覧 Controller
+ */
+@Controller
+public class AttendanceListController {
+
+  /**
+   * 勤怠一覧情報 Service
+   */
+  @Autowired
+  private AttendanceListService attendanceListService;
+
+  /**
+   * 勤怠一覧画面を表示
+   * @param model Model
+   * @return 勤怠一覧画面のHTML
+   */
+  @RequestMapping("/attendanceList/list")
+  public String attendanceList(Model model) {
+    List<AttendanceListEntity> attendancelist = attendanceListService.searchAll();
+    model.addAttribute("attendancelist", attendancelist);
+    return "attendancelist/list";
+  }
+
+ 
+}
