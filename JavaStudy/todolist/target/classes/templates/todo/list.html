@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/head :: head_fragment(title = 'Todo情報一覧', scripts = ~{::script}, links = ~{::link})"></head>
+<body>
+  <div class="container">
+    <h1>Todo情報一覧</h1>
+    <div class="float-end">
+      <a th:href="@{/todo/add}" class="btn btn-primary">新規登録はこちら</a>
+    </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Todo</th>
+          <th>担当者</th>
+          <th>ステータス</th>
+          <th>MEMO</th>
+          <th></th>
+        </tr>
+         </thead>
+      <tbody>
+        <tr th:each="todo : ${todolist}" th:object="${todo}" class="align-middle">
+          <td th:text="*{id}"></td>
+          <td th:text="*{todo}"></td>
+          <td th:text="*{person}"></td>
+          <td th:text="*{status}"></td>
+          <td th:text="*{memo}"></td>
+
+          <td><a th:href="@{/todo/{id}(id=*{id})}" class="btn btn-secondary">詳細</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
