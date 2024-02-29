@@ -116,6 +116,7 @@ public class TodoController {
 				errorList.add(error.getDefaultMessage());
 			}
 			model.addAttribute("validationError", errorList);
+		    model.addAttribute("TodoUpdateRequest", todoUpdateRequest);
 			return "todo/edit";
 		}
 		// 科目情報の更新
