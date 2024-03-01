@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org">
+<head
+  th:replace="common/head :: head_fragment(title = 'Todo情報詳細', scripts = ~{::script}, links = ~{::link})"></head>
+<body>
+  <div class="container">
+    <h1>Todo情報詳細</h1>
+    <div th:object="${todo}">
+		 <div class="row mx-md-n5">
+        <div class="col-2 pt-3 border bg-light">Todo</div>
+        <div class="col pt-3 border">
+          <p th:text="*{todo}"></p>
+        </div>
+      </div>
+       <div class="row mx-md-n5">
+        <div class="col-2 pt-3 border bg-light">担当者</div>
+        <div class="col pt-3 border">
+          <p th:text="*{person}"></p>
+        </div>
+      </div>
+       <div class="row mx-md-n5">
+        <div class="col-2 pt-3 border bg-light">ステータス</div>
+        <div class="col pt-3 border">
+          <p th:text="*{status}"></p>
+        </div>
+      </div>
+       <div class="row mx-md-n5">
+        <div class="col-2 pt-3 border bg-light">MEMO</div>
+        <div class="col pt-3 border">
+          <p th:text="*{memo}"></p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="text-center">
+      <a th:href="@{/todo/{id}/edit(id=*{id})}" class="btn btn-primary" >　編集　</a>
+      <a th:href="@{/todo/{id}/delete(id=*{id})}" class="btn btn-secondary">　削除　</a>
+      <a href="/todo/list" class="btn btn-secondary">一覧に戻る</a>
+    </div>
+  </div>
+</body>
+</html>
