@@ -29,17 +29,19 @@ public class TodoController {
 	 */
 	@Autowired
 	TodoService todoService;
+
 	/**
 	 * Todo情報一覧画面を表示
 	 * @param  model Model
 	 * @return  Todo情報一覧画面のHTML
 	 */
 	@GetMapping("/todo/list")
-	public String todotList(Model model) {
-		List<TodoEntity> todolist = todoService.searchAll();
-		model.addAttribute("todolist", todolist);
+	public String todoList(Model model) {
+		List<TodoEntity> todoList = todoService.searchAll();
+		model.addAttribute("todoList", todoList);
 		return "todo/list";
 	}
+	
 	/**
 	 * Todo新規登録画面を表示
 	 * @param  model Model
@@ -56,7 +58,7 @@ public class TodoController {
 	 * @param  model Model
 	 * @return  Todo情報一覧画面
 	 */
-	@PostMapping("todo/create")
+	@PostMapping("/todo/create")
 	public String todoCreate(@Validated  @ModelAttribute  TodoForm todoRequest, BindingResult result, Model model) {
 		if (result.hasErrors()) {
 			// 入力チェックエラーの場合
@@ -69,12 +71,12 @@ public class TodoController {
 			return "todo/add";
 		}
 		// Todo情報の登録
-				todoService.create(todoRequest);
-				return "redirect:/todo/list";
-			}	
+		todoService.create(todoRequest);
+		return "redirect:/todo/list";
+	}	
 	/**
 	 * Todo情報詳細画面を表示
-	 * @param  id 表示するTodoID
+	 * @param  id 表示する科目ID
 	 * @param  model Model
 	 * @return  Todo情報詳細画面
 	 */
@@ -86,7 +88,7 @@ public class TodoController {
 	}
 	/**
 	 * Todo編集画面を表示
-	 * @param  id 表示するTodoID
+	 * @param  id 表示する科目ID
 	 * @param  model Model
 	 * @return  Todo編集画面
 	 */
@@ -99,12 +101,12 @@ public class TodoController {
 		todoUpdateRequest.setPerson(todo.getPerson());
 		todoUpdateRequest.setStatus(todo.getStatus());
 		todoUpdateRequest.setMemo(todo.getMemo());
-		model.addAttribute("todoForm", todoUpdateRequest);
+		model.addAttribute("todoUpdateRequest", todoUpdateRequest);
 		return "todo/edit";
 	}
 	/**
 	 * Todo更新
-	 * @param  todoRequest リクエストデータ
+	 * @param  userRequest リクエストデータ
 	 * @param  model Model
 	 * @return  Todo情報詳細画面
 	 */
@@ -116,24 +118,22 @@ public class TodoController {
 				errorList.add(error.getDefaultMessage());
 			}
 			model.addAttribute("validationError", errorList);
-		    model.addAttribute("TodoUpdateRequest", todoUpdateRequest);
-		    return "todo/edit";
+			return "todo/edit";
 		}
 		// 科目情報の更新
-				todoService.update(todoUpdateRequest);
-				return String.format("redirect:/todo/%d", todoUpdateRequest.getId());
-			}
-	 /**
-		 * Todo情報削除
-		 * @param  id 表示するID
-		 * @param  model Model
-		 * @return  Todo情報詳細画面
-		 */
-		@GetMapping("/todo/{id}/delete")
-		public String todoDelete(@PathVariable Integer id, Model model) {
-			// Todo情報の削除
-			todoService.delete(id);
-			return "redirect:/todo/list";
-		}
-	
+		todoService.update(todoUpdateRequest);
+		return String.format("redirect:/todo/%d", todoUpdateRequest.getId());
+	}
+	/**
+	 * Todo情報削除
+	 * @param  id 表示するID
+	 * @param  model Model
+	 * @return  todo情報詳細画面
+	 */
+	@GetMapping("/todo/{id}/delete")
+	public String todoDelete(@PathVariable Integer id, Model model) {
+		// Todo情報の削除
+		todoService.delete(id);
+		return "redirect:/todo/list";
+	}
 }

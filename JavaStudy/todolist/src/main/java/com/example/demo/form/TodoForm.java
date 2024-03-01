@@ -31,9 +31,8 @@ public class TodoForm {
 	  @NotEmpty(message = "ステータスを入力してください")
 	  private String status;
 	  /**
-	   * Todo
+	   * MEMO
 	   */
-	  @NotEmpty(message = "MEMOを入力してください")
 	  @Size(max = 50, message = "MEMOは50文字以内で入力してください")
 	  private String memo;
 

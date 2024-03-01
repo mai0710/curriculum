@@ -31,13 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/.DS_Store
-/.gitignore
-/.mvn/
-/mvnw
-/mvnw.cmd
-/pom.xml
-/src/
-/スクリーンショット 2023-12-16 3.44.02.png
-/スクリーンショット 2023-12-16 3.44.12.png
-/スクリーンショット 2023-12-16 3.44.22.png
